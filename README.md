@@ -27,6 +27,7 @@ $di->qrcode = function() {
 效果类似如下：  
 ![](http://7xiz2f.com1.z0.glb.clouddn.com/20171121225722_9b8f48f3986e2026363584dba7c56621)
 
+或者直接浏览器访问：[http://api.phalapi.net/?s=QrCode.Png&data=Hello%20PhalApi!&size=10](http://api.phalapi.net/?s=QrCode.Png&data=Hello%20PhalApi!&size=10)  
 
 第二种使用方式：将二维码图片保存到文件。
 ```
