@@ -24,9 +24,14 @@ $di->qrcode = function() {
 \PhalApi\DI()->qrcode->png('Hello PhalApi!', false, 'L', 4);
 ```
 
+效果类似如下：  
+![](http://7xiz2f.com1.z0.glb.clouddn.com/20171121225722_9b8f48f3986e2026363584dba7c56621)
+
+
 第二种使用方式：将二维码图片保存到文件。
 ```
 \PhalApi\DI()->qrcode->png('Hello PhalApi!', '/path/to/your_file.png', 'L', 4);
 ```
 
-
+## 代码示例
+可参考[PhalApi的示例源代码](https://github.com/phalapi/phalapi/blob/master-2x/src/app/Api/Examples/QrCode.php)。
