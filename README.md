@@ -6,18 +6,18 @@ PhalApi 二维码扩展，基于[PHP QRCode](http://phpqrcode.sourceforge.net)�
 
 | 项目 | 说明 |
 |---|---|
-| 分支基线 | **`phalapi8-dev`（v8.0.0 线，支持 PHP 8）** |
+| 当前版本 | **v8.0.0** |
 | PHP 要求 | **>= 8.0**（已实测 8.0 与 8.4） |
 | 扩展依赖 | `gd`（生成 PNG 图片必需） |
 
 > **版本号说明**：`v8.0.0` 中的 **8 表示“支持 PHP 8”**，不是 PhalAPI 的第 8 代版本。
 >
-> 本扩展代码本身已通过 PHP 8.0 与 8.4 实测（生成 PNG 正常、无弃用告警），v8.0.0 发布后 `composer.json` 一并统一为 `php >=8.0`。
+> 本扩展代码已通过 PHP 8.0 与 8.4 实测（生成 PNG 正常、无弃用告警），v8.0.0 起 `composer.json` 要求 `php >=8.0`。
 
 ## 安装和配置
 修改项目下的composer.json文件，并添加：  
 ```
-    "phalapi/qrcode":"dev-master"
+    "phalapi/qrcode":"^8.0"
 ```
 然后执行```composer update```。  
 

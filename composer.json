@@ -1,6 +1,6 @@
 {
     "name": "phalapi/qrcode",
-    "description": "PhalApi 2.x 扩展类库：基于QRCode实现的二维码扩展",
+    "description": "PhalApi 2.x 扩展类库：基于QRCode实现的二维码扩展，v8.0.0 起支持 PHP 8",
     "type": "library",
     "keywords": [
         "phalapi", "phalapi-qrcode", "qrcode", "二维码"
@@ -14,8 +14,16 @@
             "email": "chanzonghuang@gmail.com",
             "homepage": "http://my.oschina.net/dogstar",
             "role": "Developer"
+        },
+        {
+            "name": "leqq00",
+            "email": "1031056910@qq.com",
+            "role": "Developer"
         }
     ],
+    "require": {
+        "php": ">=8.0"
+    },
     "autoload": {
         "psr-4": {
             "PhalApi\\QrCode\\": "src"
